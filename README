@@ -1,0 +1,11 @@
+This is a plugin for jQuery.
+
+It will modify a table, so that the table behaves similarly to a select box.
+
+Usage examples:
+
+$('#mytable').tableselect();
+
+$('#mytable').tableselect({name:'thetabers', hidefirstrow:true});
+
+$('#mytable').tableselect({name:'currency'}).tablesorter();
