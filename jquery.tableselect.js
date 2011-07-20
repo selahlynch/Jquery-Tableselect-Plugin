@@ -18,7 +18,7 @@
 			jqrow.addClass('selected');
 			if(jqrow.length > 0){
 				var selectedval = jqrow.find('td:first').html();
-				jqtsdiv.append('<input type="hidden"></input>');
+				jqtsdiv.append('<input type="hidden"/>');
 				jqtsdiv.children().last().filter('input:hidden').val(selectedval).attr('name',postname);			
 			}
 		};
